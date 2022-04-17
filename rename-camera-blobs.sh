@@ -38,7 +38,7 @@ cd lib
 sed -i "s|libactuator_|lib${PREFIX}ctuator_|g" libmmcamera2_sensor_modules.so
 sed -i "s|libchromatix_|lib${PREFIX}hromatix_|g" libmmcamera2_sensor_modules.so
 sed -i "s|libflash_|lib${PREFIX}lash_|g" libmmcamera2_sensor_modules.so
-sed -i "s|etc/camera|etc/Uamera|g" libmmcamera2_sensor_modules.so
+sed -i "s|etc/camera|etc/${PREFIX}amera|g" libmmcamera2_sensor_modules.so
 sed -i "s|libmmcamera_|lib${PREFIX}mcamera_|g" *.so
 sed -i "s|libmmcamera2_|lib${PREFIX}mcamera2_|g" *.so
 # Misc blobs
